@@ -1,0 +1,78 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{王雨峰}
+
+\basicInfo{
+  \email{alanwang424@gmail.com} \textperiodcentered\ 
+  \phone{182-0157-1721} 
+    }
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{北京工业大学 (211)}， 北京}{2014 -- 2018}
+\textit{本科，计算机科学与技术（实验班）}\ 
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 熟悉Golang、Python开发。有实际产品开发经验。
+  \item 熟悉Linux，了解运维和网络相关的技能。
+  \item 熟悉Git的使用，具备良好的编程风格和文档习惯，喜欢和他人合作，实践过Git工作流。
+  \item 了解软件测试方法，包括单元测试、系统测试等；了解持续集成，时间过Gitlab CI。
+  \item 了解React，接触过前后端开发的对接。
+  \item 较为丰富的客户支持经验，包括产品部署、售前支持、现场调试等。累计支持过20余个甲方客户单位。
+  \item 具备一定产品化经验，曾负责过两个产品的客户需求和研发部门间的对接工作。
+  \item 有过简单的团队管理经验（3人）。
+  \item 英语: 通过大学英语六级，能读英文文档，熟练使用 Google, Stack Overflow 等信息检索工具。
+  \item 团队小而精，锻炼的技能比较杂，目前正在不断积累后端开发/网络方向的能力。
+\end{itemize}
+
+\section{\faUsers\ 实习经历}
+\datedsubsection{\textbf{知道创宇 北京}}{2016年7月 -- 2016年9月；2017年8月 -- 至今}
+\textit{安全工程师}
+\begin{itemize}
+  \item 知道创宇2018年度优秀实习生。
+  \item 任职1年+时间，参与“深蓝产品技术组”两个产品的软硬件开发、产品化、客户支持工作。参与过产品从预研、需求规格、概要设计、编码、测试、发布、客户支持的全过程。
+\end{itemize}
+
+\datedsubsection{\textbf{中科院软件所}}{2017年7月 -- 至今}
+\textit{参与北京市“实培计划”，做本科毕业设计}
+\begin{itemize}
+  \item 每周在软件所参加组会并进行课题讨论。课题组的方向是 Android 应用程序的代码静态分析，涉及代码安全性、程序性能分析、资源泄漏检测等。我的工作是使用模糊测试的手段对 Android 组件间通信机制（Intent）的鲁棒性进行研究。
+\end{itemize}
+
+\section{\faCheckSquareO\ 项目经历}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{Golang：}使用Golang和团队成员一同开发了一套路由器设备的后端，有完善的RESTful API，具备良好的软硬件性能和完善的单元测试。
+  \item \textbf{ELK：}建设ELK数据分析平台。以多台服务器作为集群，使用 ELK 套件 + Redis + MongoDB 进行建设，考虑了数据的缓冲队列和备份问题，接入的数据量~5G/天。数据清洗的相关脚本使用了Python。
+  \item \textbf{运维：}调研匿名VPS的采购、运维、运营方案，管理 50+ 匿名 VPS，都投入了实际生产环境中。在这个过程中实践过Zabbix+Ansible监控运维方案。
+  \item \textbf{蜜罐：}研究 Linux 环境下蜜罐的部署和使用，捕获并分析网络恶意攻击行为（通过对样本和日志的分析），重点研究 Linux 下的开源软件套件 MHN (Modern Honey Network); 修改蜜罐指纹信息，规避恶意软件的探测；调研行业中的网络恶意攻击解决方案。
+  \item \textbf{Web：}“野生工大助手”网站，在校期间小作品。后端使用 PHP 实现的爬虫，前端使用 WeUI 样式库，可适配移动端，能够不连校内网查询期末考试成绩等信息，大大优化北工大学生查询期末考试成绩的效率，全校范围内流行\textbf{。单日最高 UV 近 4000，单日最高 PV 近 19000。}网址：https://chafen.bjut123.com/。Github repo: https://github.com/wangyufeng0615/bjuthelper
+\end{itemize}
+
+\section{\faInfo\ 其他信息}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 个人博客: http://www.wangyufeng.org/
+  \item 一些在校期间荣誉：蓝桥杯北京赛区 C/C++ 三等奖；两次优秀学习奖学金；两次优秀学生干部奖学金；担任班长，在校期间做过学生工作，有一定组织、沟通和协调能力；善于口头表达，作为主讲人在校内讲过数次 C 语言和 Office 入门培训。
+  \item 喜欢挑战，期待成长，期待为企业和我们所生活的社会贡献自己的价值。
+
+
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
+
